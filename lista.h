@@ -9,7 +9,7 @@ class Lista
 protected:
     Neuronas<T> *cabeza;
 public:
-    Lista<T>(){cabeza = nullptr;};
+    Lista<T>(){cabeza = nullptr;}
     //TDA
     ~Lisa();
     int Longitud(){
@@ -21,10 +21,10 @@ public:
         }
         return c;
     };
-    void Insertar(T dato){};
-    void Modificar(){};
-    void Eliminar(){};
-    bool Consultar(){};
+    void Insertar(T dato){}
+    void Modificar(){}
+    void Eliminar(){}
+    bool Consultar(){}
 };
 
 #endif // LISTA_H

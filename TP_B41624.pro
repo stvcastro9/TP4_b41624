@@ -32,7 +32,8 @@ SOURCES += \
     conexion.cpp \
     rna.cpp \
     algoritmogenetico.cpp \
-    lista.cpp
+    lista.cpp \
+    individuo.cpp
 
 HEADERS += \
         mainwindow.h \
@@ -42,7 +43,8 @@ HEADERS += \
     conexion.h \
     rna.h \
     algoritmogenetico.h \
-    lista.h
+    lista.h \
+    individuo.h
 
 FORMS += \
         mainwindow.ui
