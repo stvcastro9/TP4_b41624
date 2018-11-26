@@ -26,24 +26,16 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
         main.cpp \
         mainwindow.cpp \
-    red.cpp \
-    capas.cpp \
     neuronas.cpp \
-    conexion.cpp \
     rna.cpp \
     algoritmogenetico.cpp \
-    lista.cpp \
     individuo.cpp
 
 HEADERS += \
         mainwindow.h \
-    red.h \
-    capas.h \
     neuronas.h \
-    conexion.h \
     rna.h \
     algoritmogenetico.h \
-    lista.h \
     individuo.h
 
 FORMS += \
